@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+	<meta charset="utf-8"> 
+	<title> Javascript - global and local variables </title> 
+	<script type="text/javascript">
+		//global - outside of functions, used anywhere
+		//local - only used inside functions
+
+		//var champion="fizz";//global var
+
+
+		function printChampion () {
+			var champion="fizz";//local var
+			document.write(champion + " inside function <br/>");
+
+		}
+
+		printChampion ();
+		document.write(champion + " outside function");
+
+		//don't make all variables global. Know where to use global and local variables. 
+
+	</script> 
+</head> 
+<body> 
+</body> 
+</html> 
